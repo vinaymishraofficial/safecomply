@@ -1,30 +1,33 @@
-# app_name = "safecomply"
-# app_title = "Safety Compliance Tracking App"
-# app_publisher = "Vinay Mishra"
-# app_description = "SafeComply is a robust Safety Compliance Tracking App built on the Frappe framework to help organizations effectively monitor, document, and manage workplace safety, audits, and regulatory compliance."
-# app_email = "Vinay.alwar89@gmail.com"
-# app_license = "mit"
+app_name = "safecomply"
+app_title = "Safety Compliance Tracking App"
+app_publisher = "Vinay Mishra"
+app_description = "SafeComply is a robust Safety Compliance Tracking App built on the Frappe framework to help organizations effectively monitor, document, and manage workplace safety, audits, and regulatory compliance."
+app_email = "Vinay.alwar89@gmail.com"
+app_license = "mit"
 # # Apps
 # # ------------------
 
 # # required_apps = []
 
 # # Each item in the list will be shown as an app in the apps page
-# # add_to_apps_screen = [
-# # 	{
-# # 		"name": "safecomply",
-# # 		"logo": "/assets/safecomply/logo.png",
-# # 		"title": "Safety Compliance Tracking App",
-# # 		"route": "/safecomply",
-# # 		"has_permission": "safecomply.api.permission.has_app_permission"
-# # 	}
-# # ]
+add_to_apps_screen = [
+	{
+		"name": "safecomply",
+		"logo": "/assets/safecomply/logo.png",
+		"title": "Safety Compliance Tracking App",
+		"route": "/safecomply",
+		"has_permission": "safecomply.api.permission.has_app_permission"
+	}
+]
 
-# doctype_js = {
-#     "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
-# }
+doctype_js = {
+    "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
+}
 
 # fixtures = [
+#     "Custom Field",
+#     "Property Setter",
+#     "Print Format",
 #     "Report",
 #     "Dashboard",
 #     "Dashboard Chart",
@@ -32,8 +35,11 @@
 #     "Workspace",
 #     "Role",
 #     "Role Profile",
-
+#     "Page",
+#     "Web Form",
+#     "Translation"
 # ]
+
 
 # # Includes in <head>
 # # ------------------
