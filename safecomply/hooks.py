@@ -24,24 +24,23 @@ app_license = "mit"
 #     "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
 # }
 
-# fixtures = [
-#     "Report",
-#     "Dashboard",
-#     "Dashboard Chart",
-#     "Number Card",
-#     "Workspace",
-#     "Role",
-#     "Role Profile",
-#     "User Permission",
+fixtures = [
+    "Report",
+    "Dashboard",
+    "Dashboard Chart",
+    "Number Card",
+    "Workspace",
+    "Role",
+    "Role Profile",
 
-# ]
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/safecomply/css/safecomply.css"
-# app_include_js = "/assets/safecomply/js/safecomply.js"
+app_include_css = "/assets/safecomply/css/safecomply.css"
+app_include_js = "/assets/safecomply/js/safecomply.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/safecomply/css/safecomply.css"
@@ -55,13 +54,13 @@ app_license = "mit"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
-# doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
-# doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
+doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 # Svg Icons
 # ------------------
@@ -97,8 +96,8 @@ app_license = "mit"
 # Installation
 # ------------
 
-# before_install = "safecomply.install.before_install"
-# after_install = "safecomply.install.after_install"
+before_install = "safecomply.install.before_install"
+after_install = "safecomply.install.after_install"
 
 # Uninstallation
 # ------------
