@@ -11,34 +11,33 @@ app_logo_url = "/assets/safecomply/logo.png"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-add_to_apps_screen = [
-	{
-		"name": "safecomply",
-		"logo": "/assets/safecomply/logo.png",
-		"title": "Safety Compliance Tracking App",
-		"route": "/safecomply",
-		"has_permission": "safecomply.api.permission.has_app_permission"
-	}
-]
+# add_to_apps_screen = [
+# 	{
+# 		"name": "safecomply",
+# 		"logo": "/assets/safecomply/logo.png",
+# 		"title": "Safety Compliance Tracking App",
+# 		"route": "/safecomply",
+# 		"has_permission": "safecomply.api.permission.has_app_permission"
+# 	}
+# ]
 
 doctype_js = {
     "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
 }
 
-# fixtures = [
-#     "Property Setter",
-#     "Report",
-#     "Dashboard",
-#     "Dashboard Chart",
-#     "Number Card",
-#     "Workspace",
-#     "Role",
-#     "Role Profile",
-#     "User Permission",
-#     "DocType",
-#     "Client Script",
+fixtures = [
+    "Property Setter",
+    "Report",
+    "Dashboard",
+    "Dashboard Chart",
+    "Number Card",
+    "Workspace",
+    "Role",
+    "Role Profile",
+    "User Permission",
+    "Client Script",
 
-# ]
+]
 
 # Includes in <head>
 # ------------------
