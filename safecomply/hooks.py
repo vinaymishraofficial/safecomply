@@ -10,31 +10,31 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "safecomply",
-# 		"logo": "/assets/safecomply/logo.png",
-# 		"title": "Safety Compliance Tracking App",
-# 		"route": "/safecomply",
-# 		"has_permission": "safecomply.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "safecomply",
+		"logo": "/assets/safecomply/logo.png",
+		"title": "Safety Compliance Tracking App",
+		"route": "/safecomply",
+		"has_permission": "safecomply.api.permission.has_app_permission"
+	}
+]
 
 doctype_js = {
     "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
 }
 
-# fixtures = [
-#     "Report",
-#     "Dashboard",
-#     "Dashboard Chart",
-#     "Number Card",
-#     "Workspace",
-#     "Role",
-#     "Role Profile",
-#     "User Permission",
+fixtures = [
+    "Report",
+    "Dashboard",
+    "Dashboard Chart",
+    "Number Card",
+    "Workspace",
+    "Role",
+    "Role Profile",
+    "User Permission",
 
-# ]
+]
 
 # Includes in <head>
 # ------------------
@@ -66,7 +66,7 @@ doctype_js = {
 # Svg Icons
 # ------------------
 # include app icons in desk
-app_include_icons = "/assets/safecomply/logo.png"
+# app_include_icons = "/assets/safecomply/logo.png"
 
 # Home Pages
 # ----------
