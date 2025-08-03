@@ -1,0 +1,20 @@
+{
+ "action": "Create Entry",
+ "action_label": "Log a Safety Incident",
+ "creation": "2025-08-03 14:11:43.102725",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2025-08-03 14:21:12.887533",
+ "modified_by": "Administrator",
+ "name": "Log a Safety Incident",
+ "owner": "Administrator",
+ "reference_document": "Safety Incident",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Log a Safety Incident",
+ "validate_action": 1
+}

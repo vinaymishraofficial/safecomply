@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-03 11:00:00.405813",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rt4d",
+  "active",
+  "checklist_name",
+  "column_break_fyaq",
+  "department",
+  "frequency",
+  "section_break_aeus",
+  "checklist_items",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rt4d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checklist_name",
+   "fieldtype": "Data",
+   "label": "Checklist Name"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Daily\nWeekly\nMonthly"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "checklist_items",
+   "fieldtype": "Table",
+   "label": "Checklist Items",
+   "options": "Checklist Item"
+  },
+  {
+   "fieldname": "column_break_fyaq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_aeus",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Safety Checklist",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-03 13:42:51.150855",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Safety Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "checklist_name",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "checklist_name"
+}

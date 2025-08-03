@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-03 12:09:26.660569",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "point",
+  "guidelines",
+  "is_mandatory"
+ ],
+ "fields": [
+  {
+   "fieldname": "point",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Point"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_mandatory",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Mandatory"
+  },
+  {
+   "fieldname": "guidelines",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Guidelines"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-03 12:15:44.533150",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

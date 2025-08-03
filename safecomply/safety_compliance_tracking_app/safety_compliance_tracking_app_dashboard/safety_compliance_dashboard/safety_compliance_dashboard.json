@@ -1,0 +1,38 @@
+{
+ "cards": [
+  {
+   "card": "Total Incidents"
+  },
+  {
+   "card": "Audits Passed"
+  },
+  {
+   "card": "Audits Failed"
+  },
+  {
+   "card": "Total Safety Checklists"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Incident Count by Type",
+   "width": "Half"
+  },
+  {
+   "chart": "Audits Passed vs Failed",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-08-03 13:09:28.527027",
+ "dashboard_name": "Safety Compliance Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-08-03 13:25:07.048642",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Safety Compliance Dashboard",
+ "owner": "Administrator"
+}

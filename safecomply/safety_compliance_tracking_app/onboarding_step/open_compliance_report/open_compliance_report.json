@@ -1,0 +1,23 @@
+{
+ "action": "View Report",
+ "action_label": "Open Compliance Report",
+ "creation": "2025-08-03 14:23:38.746895",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2025-08-03 14:23:38.746895",
+ "modified_by": "Administrator",
+ "name": "Open Compliance Report",
+ "owner": "Administrator",
+ "reference_report": "Compliance Summary",
+ "report_description": "View department-wise audit and incident summary with compliance %. Use filters to analyze safety trends.",
+ "report_reference_doctype": "Safety Audit Log",
+ "report_type": "Script Report",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Open Compliance Report",
+ "validate_action": 1
+}

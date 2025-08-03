@@ -1,0 +1,91 @@
+{
+ "charts": [
+  {
+   "chart_name": "Audits Passed vs Failed",
+   "label": "Audits Passed vs Failed"
+  },
+  {
+   "chart_name": "Incident Count by Type",
+   "label": "Incident Count"
+  }
+ ],
+ "content": "[{\"id\":\"C3YIfIB1DI\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident Count\",\"col\":12}},{\"id\":\"-qxwy-v30Y\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Audits Passed vs Failed\",\"col\":12}},{\"id\":\"eiuFB4bNg2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Safety Checklists\",\"col\":6}},{\"id\":\"ckDiSOs0BL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Safety Checklists\",\"col\":6}},{\"id\":\"f22GeAQ_YY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Safety Checklist\",\"col\":3}},{\"id\":\"kJCgI8Nzb1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Safety Audit Log\",\"col\":3}},{\"id\":\"Q2ic97FpgJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Safety Incident\",\"col\":3}},{\"id\":\"2A7YkeXymS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Safety Compliance Dashboard\",\"col\":3}},{\"id\":\"YQM-1V3Kbl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Corrective Action\",\"col\":3}},{\"id\":\"fwkRqRAY-G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compliance Summary\",\"col\":3}}]",
+ "creation": "2025-08-03 13:30:32.230037",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list-alt",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "SafeComply",
+ "links": [],
+ "modified": "2025-08-03 14:28:28.273601",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "SafeComply",
+ "number_cards": [
+  {
+   "label": "Total Safety Checklists",
+   "number_card_name": "Total Safety Checklists"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 12.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Safety Compliance Dashboard",
+   "link_to": "Safety Compliance Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Safety Checklist",
+   "link_to": "Safety Checklist",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Safety Audit Log",
+   "link_to": "Safety Audit Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Corrective Action",
+   "link_to": "Corrective Action",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Compliance Summary",
+   "link_to": "Compliance Summary",
+   "report_ref_doctype": "Safety Audit Log",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Safety Incident",
+   "link_to": "Safety Incident",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "SafeComply"
+}

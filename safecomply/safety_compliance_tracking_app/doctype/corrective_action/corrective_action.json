@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-03 12:09:01.969058",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_sh4t",
+  "linked_incident",
+  "linked_audit",
+  "deadline",
+  "responsible_person",
+  "amended_from",
+  "reference_type",
+  "linked_doc",
+  "column_break_wazi",
+  "action_plan"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_sh4t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Corrective Action",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "action_plan",
+   "fieldtype": "Text",
+   "label": "Action Plan"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Link",
+   "label": "Responsible Person",
+   "options": "User"
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Date",
+   "label": "Deadline"
+  },
+  {
+   "fieldname": "linked_incident",
+   "fieldtype": "Link",
+   "label": "Linked Incident",
+   "options": "Safety Incident"
+  },
+  {
+   "fieldname": "linked_audit",
+   "fieldtype": "Link",
+   "label": "Linked Audit",
+   "options": "Safety Audit Log"
+  },
+  {
+   "fieldname": "column_break_wazi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reference_type",
+   "fieldtype": "Link",
+   "label": "Reference Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "linked_doc",
+   "fieldtype": "Dynamic Link",
+   "label": "Linked Document",
+   "options": "reference_type"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-03 12:39:43.099439",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Corrective Action",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

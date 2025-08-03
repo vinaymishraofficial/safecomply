@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:incident_id",
+ "creation": "2025-08-03 12:25:07.271712",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_b4ce",
+  "incident_id",
+  "reported_by",
+  "severity",
+  "status",
+  "incident_type",
+  "attachments",
+  "column_break_tvsl",
+  "department",
+  "date_and_time",
+  "linked_audit_log",
+  "description",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_b4ce",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "incident_id",
+   "fieldtype": "Data",
+   "label": "Incident ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "reported_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reported By",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Date and Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "incident_type",
+   "fieldtype": "Select",
+   "label": "Incident Type",
+   "options": "Injury\nFire\nSlip\nEquipment Failure\netc."
+  },
+  {
+   "fieldname": "severity",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Severity",
+   "options": "Low\nMedium\nHigh",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nUnder Investigation\nResolved",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tvsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "linked_audit_log",
+   "fieldtype": "Link",
+   "label": "Linked Audit Log",
+   "options": "Safety Audit Log"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Safety Incident",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-03 13:50:24.629229",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Safety Incident",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_views": 1
+}

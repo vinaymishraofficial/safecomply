@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Audit-Log-{YYYY}-{MM}-{###}",
+ "creation": "2025-08-03 12:16:42.502435",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_euip",
+  "audit_date",
+  "department",
+  "auditor",
+  "column_break_amjs",
+  "status",
+  "safety_checklist",
+  "missed_points",
+  "amended_from",
+  "section_break_swuc",
+  "audit_responses"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_euip",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "audit_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Audit Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "auditor",
+   "fieldtype": "Link",
+   "label": "Auditor",
+   "options": "User"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Safety Audit Log",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "safety_checklist",
+   "fieldtype": "Link",
+   "label": "Safety Checklist",
+   "options": "Safety Checklist"
+  },
+  {
+   "fieldname": "audit_responses",
+   "fieldtype": "Table",
+   "label": "Audit Responses",
+   "options": "Audit Response"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Passed\nFailed"
+  },
+  {
+   "fieldname": "column_break_amjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "missed_points",
+   "fieldtype": "Text",
+   "label": "Missed Points\t"
+  },
+  {
+   "fieldname": "section_break_swuc",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-03 13:44:47.153491",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "Safety Audit Log",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

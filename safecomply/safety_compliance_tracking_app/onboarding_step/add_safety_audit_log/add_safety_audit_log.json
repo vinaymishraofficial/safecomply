@@ -1,0 +1,20 @@
+{
+ "action": "Go to Page",
+ "action_label": "Add Safety Audit Log",
+ "creation": "2025-08-03 14:10:48.436091",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2025-08-03 14:18:05.857945",
+ "modified_by": "Administrator",
+ "name": "Add Safety Audit Log",
+ "owner": "Administrator",
+ "path": "/app/safety-audit-log/new",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Add Safety Audit Log",
+ "validate_action": 1
+}

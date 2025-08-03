@@ -1,0 +1,50 @@
+{
+ "allow_roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "Auditor"
+  },
+  {
+   "role": "Dashboard Manager"
+  },
+  {
+   "role": "HR Manager"
+  }
+ ],
+ "creation": "2025-08-03 14:17:14.922948",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://github.com/vinaymishraofficial/safecomply/wiki",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2025-08-03 14:24:31.918055",
+ "modified_by": "Administrator",
+ "module": "Safety Compliance Tracking App",
+ "name": "SafeComply Onboarding",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Add Safety Checklist"
+  },
+  {
+   "step": "Add Safety Audit Log"
+  },
+  {
+   "step": "Log a Safety Incident"
+  },
+  {
+   "step": "View Dashboard"
+  },
+  {
+   "step": "Open Compliance Report"
+  }
+ ],
+ "subtitle": "Complete the steps below to configure your safety tracking system.",
+ "success_message": "You're all set! SafeComply is ready to use.",
+ "title": "Welcome to SafeComply \u2013 Let\u2019s Get Started"
+}
