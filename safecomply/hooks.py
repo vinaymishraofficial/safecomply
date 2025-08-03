@@ -24,19 +24,17 @@ doctype_js = {
     "Corrective Action": "safety_compliance_tracking_app/doctype/corrective_action/corrective_action.js"
 }
 
-fixtures = [
-    "Property Setter",
-    "Report",
-    "Dashboard",
-    "Dashboard Chart",
-    "Number Card",
-    "Workspace",
-    "Role",
-    "Role Profile",
-    "User Permission",
-    "Client Script",
+# fixtures = [
+#     "Report",
+#     "Dashboard",
+#     "Dashboard Chart",
+#     "Number Card",
+#     "Workspace",
+#     "Role",
+#     "Role Profile",
+#     "User Permission",
 
-]
+# ]
 
 # Includes in <head>
 # ------------------
